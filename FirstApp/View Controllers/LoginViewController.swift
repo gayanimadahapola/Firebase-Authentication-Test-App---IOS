@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var firstNameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     
-    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     @IBOutlet weak var LoginButton: UIButton!
     
@@ -32,24 +33,35 @@ class LoginViewController: UIViewController {
         ErrorLabel.alpha = 0
         
         //Style the elements
-        Utilities.styleTextField(firstNameTextField)
-        Utilities.styleTextField(lastNameTextField)
+        Utilities.styleTextField(emailTextField)
+        Utilities.styleTextField(passwordTextField)
         Utilities.styleFilledButton(LoginButton)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
     
     @IBAction func LoginTapped(_ sender: Any) {
+        
+        //create cleaned verdion of the textfields
+        let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        
+        //Sign in in the user
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            
+            if error != nil {
+                //couldn't signin
+                self.ErrorLabel.text = error!.localizedDescription
+                self.ErrorLabel.alpha = 1
+            }
+            else{
+                    
+                    let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController
+                    
+                    self.view.window?.rootViewController = homeViewController
+                    self.view.window?.makeKeyAndVisible()
+            }
+        }
     }
     
 }
