@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A08C7F4240065AB004A8D93 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08C7F3240065AB004A8D93 /* UIViewExtension.swift */; };
+		0A08C7F624006855004A8D93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A08C7F524006855004A8D93 /* Constants.swift */; };
 		0A547BC323DE48FC00188AC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A547BC223DE48FC00188AC1 /* GoogleService-Info.plist */; };
 		0A83363123DE21CA000A2D38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83363023DE21CA000A2D38 /* AppDelegate.swift */; };
 		0A83363323DE21CA000A2D38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83363223DE21CA000A2D38 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A08C7F3240065AB004A8D93 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0A08C7F524006855004A8D93 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0A547BC223DE48FC00188AC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A83362D23DE21CA000A2D38 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A83363023DE21CA000A2D38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 			children = (
 				0ACC1F3723DE316A005FB00B /* Utilities.swift */,
 				0AA8E71D23FB150A00E76DC7 /* Constant.swift */,
+				0A08C7F3240065AB004A8D93 /* UIViewExtension.swift */,
+				0A08C7F524006855004A8D93 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -252,7 +258,9 @@
 				0A83364523DE234F000A2D38 /* LoginViewController.swift in Sources */,
 				0A83364323DE233B000A2D38 /* SignUpViewController.swift in Sources */,
 				0A83363323DE21CA000A2D38 /* ViewController.swift in Sources */,
+				0A08C7F4240065AB004A8D93 /* UIViewExtension.swift in Sources */,
 				0A83363123DE21CA000A2D38 /* AppDelegate.swift in Sources */,
+				0A08C7F624006855004A8D93 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

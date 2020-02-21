@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var gradientLayer: CAGradientLayer!
 
     @IBOutlet weak var SignUpButton: UIButton!
     
@@ -18,6 +20,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //call extension,To Add gradiant background 
+        view.setGradiantBackground(colorOne: Colors.blue, colorTwo: Colors.white)
+        
         
         setUpElements()
     }
