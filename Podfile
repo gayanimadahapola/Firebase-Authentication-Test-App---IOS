@@ -12,5 +12,6 @@ target 'FirstApp' do
   pod 'Firebase'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'Gemini'
 
 end

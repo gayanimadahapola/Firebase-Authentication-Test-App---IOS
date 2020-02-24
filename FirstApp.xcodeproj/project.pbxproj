@@ -18,6 +18,7 @@
 		0A83364323DE233B000A2D38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83364223DE233B000A2D38 /* SignUpViewController.swift */; };
 		0A83364523DE234F000A2D38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83364423DE234F000A2D38 /* LoginViewController.swift */; };
 		0A83364723DE2378000A2D38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A83364623DE2378000A2D38 /* HomeViewController.swift */; };
+		0A9BF17724025A67000B8FD9 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF17624025A67000B8FD9 /* MyCell.swift */; };
 		0AA8E71E23FB150B00E76DC7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8E71D23FB150A00E76DC7 /* Constant.swift */; };
 		0ACC1F3823DE316A005FB00B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC1F3723DE316A005FB00B /* Utilities.swift */; };
 		1FE34910FC3AC03F5D85B6C1 /* Pods_FirstApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5C3B9C44332FA4AC12F87 /* Pods_FirstApp.framework */; };
@@ -37,6 +38,7 @@
 		0A83364223DE233B000A2D38 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0A83364423DE234F000A2D38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0A83364623DE2378000A2D38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A9BF17624025A67000B8FD9 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		0AA8E71D23FB150A00E76DC7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0ACC1F3723DE316A005FB00B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		33325553550418C284452A35 /* Pods-FirstApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstApp.release.xcconfig"; path = "Target Support Files/Pods-FirstApp/Pods-FirstApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				0A83364423DE234F000A2D38 /* LoginViewController.swift */,
 				0A83364223DE233B000A2D38 /* SignUpViewController.swift */,
 				0A83363223DE21CA000A2D38 /* ViewController.swift */,
+				0A9BF17624025A67000B8FD9 /* MyCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA8E71E23FB150B00E76DC7 /* Constant.swift in Sources */,
+				0A9BF17724025A67000B8FD9 /* MyCell.swift in Sources */,
 				0ACC1F3823DE316A005FB00B /* Utilities.swift in Sources */,
 				0A83364723DE2378000A2D38 /* HomeViewController.swift in Sources */,
 				0A83364523DE234F000A2D38 /* LoginViewController.swift in Sources */,

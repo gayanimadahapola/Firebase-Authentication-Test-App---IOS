@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //call extension,To Add gradiant background 
-        view.setGradiantBackground(colorOne: Colors.blue, colorTwo: Colors.white)
+        view.setGradiantBackground(colorOne: Colors.blue , colorTwo: Colors.white)
         
         
         setUpElements()

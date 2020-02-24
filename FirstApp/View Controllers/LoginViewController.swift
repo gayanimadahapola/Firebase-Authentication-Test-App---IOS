@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         setUpElements()
+        view.setGradiantBackground(colorOne: Colors.blue , colorTwo: Colors.white)
     }
     
     func setUpElements(){
