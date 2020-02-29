@@ -83,13 +83,13 @@ class SignUpViewController: UIViewController {
     @IBAction func SignUpTapped(_ sender: Any) {
         
         //Validate the fields
-        let error = validateFields()
+            let error = validateFields()
         
-        if error != nil{
-            //show error message, when something wrong in the fields
-            showError(error!)
-        }
-        else{
+            if error != nil{
+                //show error message, when something wrong in the fields
+                showError(error!)
+            }
+            else{
             //create cleaned version of the data
             let firstName = FirstNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let lastName = LastNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
